@@ -11,6 +11,15 @@
   height: 100vh;
 }
 
+@media screen and (max-width: 792px) {
+  .timer-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
 .nav {
   display: flex;
   justify-content: center;
@@ -26,6 +35,15 @@
   justify-content: center;
   gap: 20px;
   font-size: 20px;
+}
+
+@media screen and (max-width: 792px) {
+  .input-design {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
 }
 
 .input-date {
@@ -82,6 +100,15 @@
   display: flex;
   justify-content: center;
   gap: 40px;
+}
+
+@media screen and (max-width: 792px) {
+  .timer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
 }
 
 .field {
